@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 3271741094
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ignore
+      Dependencies: {}
+    Info_1:
+      Name: crush_prefabs
+      Dependencies:
+        Dependency_0: ignore

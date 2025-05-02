@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 1949005628
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3ecbf80171e31d3d10b529b41054466a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ef38fdd82fac128b4ee6404e356afd45
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/NW/RIFTON-CAPS-ITALIC SDF Material Damage Counter.mat
+- Assets/NW/RIFTON-CAPS-ITALIC.otf
+- Assets/NW/SourceCodePro-Medium SDF.asset
+- Assets/NW/RIFTON-CAPS-ITALIC SDF Material CharacterIntro.mat
+- Assets/NW/RIFTON-CAPS-ITALIC SDF Material Menu.mat
+- Assets/NW/RIFTON-CAPS-ITALIC SDF Material.mat
+- Assets/NW/RIFTON-CAPS-ITALIC SDF Material Nameplate.mat
+- Assets/NW/SourceCodePro-Medium.ttf
+- Assets/NW/RIFTON-CAPS-ITALIC SDF.asset
+- Assets/NW/SourceCodePro-MediumItalic SDF.asset
+- Assets/NW/SourceCodePro-MediumItalic.ttf
+- Assets/NW/RIFTON-CAPS-ITALIC SDF Atlas.png
+- Assets/NW/RIFTON-CAPS.otf
+- Assets/NW/locationLowerHeaven.png
+Dependencies: []
