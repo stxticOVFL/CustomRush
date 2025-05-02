@@ -1,11 +1,14 @@
 # CustomRush
 ### Create your own rushes with any stages you like!
 
-![image](https://github.com/stxticOVFL/NeonCapture/assets/29069561/23c71631-7f6b-4acf-a594-02d8db1df86d)
+![image](https://github.com/user-attachments/assets/9eca04ea-25f7-4020-9cb5-d603b0c62a82)
+
+*Mod commisioned by Universal, thank you!*
 
 ## Features
 - Make rushes with specific campaigns, chapters, or levels
 - Exclude specific stages/chapters from chapters/campaigns
+- Easy sharing of rush configuration via Rush Codes
 - Flexible UI for adding, excluding, removing, unpacking, and sorting stages
 - No anticheat mods required
   
@@ -22,7 +25,7 @@ This project uses Visual Studio 2022 as its project manager. When opening the Vi
 Most will be in `Neon White_data/Managed`. Some will be in `MelonLoader/net35`, **not** `net6`. Select the `NeonLite` mod for that reference. 
 If you get any weird errors, try deleting the references and re-adding them manually.
 
-![image](https://github.com/stxticOVFL/NeonCapture/assets/29069561/67c946de-2099-458d-8dec-44e81883e613)
+![image](https://github.com/user-attachments/assets/0ed86c36-0df6-4263-9344-78508b22d218)
 
 Once your references are correct, build using the keybind or like the picture below.
 
