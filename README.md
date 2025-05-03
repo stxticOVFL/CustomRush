@@ -3,7 +3,7 @@
 
 ![image](https://github.com/user-attachments/assets/9eca04ea-25f7-4020-9cb5-d603b0c62a82)
 
-*Mod commisioned by Universal, thank you!*
+*Mod commisioned by Universal for the Spring Rush 2025 event; thank you!*
 
 ## Features
 - Make rushes with specific campaigns, chapters, or levels
