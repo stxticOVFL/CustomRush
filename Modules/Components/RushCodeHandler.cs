@@ -13,7 +13,7 @@ namespace CustomRush.Modules.Components
             transform.Find("Label").GetComponent<AxKLocalizedText>().SetKey("CustomRush/LABEL_RUSHCODE_T");
             input = GetComponentInChildren<TMP_InputField>();
             input.placeholder.GetComponent<AxKLocalizedText>().SetKey("CustomRush/LABEL_RUSHCODE");
-            input.text = "";
+            input.text = RushManager.lastCode.Value;
             input.textComponent.fontStyle = FontStyles.Normal; // lol
             input.readOnly = readOnly;
 

@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
-using HarmonyLib;
+using MelonLoader;
 using NeonLite;
 using UnityEngine;
-using static CustomRush.Modules.Components.Selector;
-using static CustomRush.Modules.Components.Selector.Campaign;
-using static LevelRush;
 
 namespace CustomRush.Modules
 {
@@ -20,6 +14,12 @@ namespace CustomRush.Modules
 #pragma warning disable CS0661
         const bool priority = true;
         const bool active = true;
+
+        internal static MelonPreferences_Entry<string> lastCode;
+        static void Setup()
+        {
+            lastCode = Settings.Add("CustomRush", "", "lastCode", "Default Code", "The code to load up on the first time checking the custom rush screen.\nDefaults to the last rush you ran.", "");
+        }
 
         internal class DataHolder(UnityEngine.Object d, string id = "")
         {
@@ -184,7 +184,11 @@ namespace CustomRush.Modules
                 return true;
 
             if (___m_currentLevelRush.currentLevelIndex == 0)
+            {
                 SetLevelList();
+                lastCode.Value = GetCode();
+                MelonPreferences.Save();
+            }
 
             int num = ___m_currentLevelRush.randomizedIndex[___m_currentLevelRush.currentLevelIndex];
             __result = levels[num];

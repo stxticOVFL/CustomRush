@@ -20,13 +20,12 @@ namespace CustomRush
         public override void OnInitializeMelon()
         {
             i = this;
+            NeonLite.Settings.AddHolder("CustomRush");
             NeonLite.NeonLite.LoadModules(MelonAssembly);
 
 #if DEBUG
             NeonLite.Modules.Anticheat.Register(MelonAssembly);
 #endif
-
-            //Settings.AddHolder("CustomRush");
         }
 
 

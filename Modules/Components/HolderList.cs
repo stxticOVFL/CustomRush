@@ -1,14 +1,9 @@
 ﻿using I2.Loc;
-using MelonLoader.TinyJSON;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static CustomRush.Modules.Components.Selector.Campaign.Mission;
 
 namespace CustomRush.Modules.Components
 {
