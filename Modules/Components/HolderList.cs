@@ -181,7 +181,7 @@ namespace CustomRush.Modules.Components
             internal class RemovalHandle : MonoBehaviour
             {
                 new AxKLocalizedText name;
-                internal Button addButton;
+                // internal Button addButton;
                 internal Button removeButton;
 
                 internal Image backdrop;
