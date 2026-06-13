@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using MelonLoader;
+using NeonLite.Modules;
 using UnityEngine;
 
 namespace CustomRush
@@ -16,6 +17,8 @@ namespace CustomRush
 
         static CustomRush i;
 
+        internal static Localization.LocaleCategory LC;
+
         public override void OnEarlyInitializeMelon() => Logger = LoggerInstance;
         public override void OnInitializeMelon()
         {
@@ -26,12 +29,16 @@ namespace CustomRush
 #if DEBUG
             NeonLite.Modules.Anticheat.Register(MelonAssembly);
 #endif
+
+            const string URL = "https://raw.githubusercontent.com/stxticOVFL/CustomRush/master/Resources/locale.csv";
+            LC = Localization.GetLocale_Stream("CustomRush", Localization.Reader_CSVStream,
+                Resources.locale.GetStream(), URL);
         }
 
 
         public override void OnLateInitializeMelon()
         {
-            var bundleLoading = AssetBundle.LoadFromMemoryAsync(Resources.crush_prefabs);
+            var bundleLoading = AssetBundle.LoadFromStreamAsync(Resources.crush_prefabs.GetStream());
             bundleLoading.completed += _ =>
             {
                 Logger.Msg("AssetBundle loading done!");
