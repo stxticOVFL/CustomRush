@@ -1,0 +1,10 @@
+identifier,text,fr,es-ES,es-419,it,pt-PT,pt-BR,de,pl,tr,ru,ja,ko,zh-CN,zh-TW
+BUTTON_CUSTOMRUSH,Custom Rush,,,,,,,,Niestandardowa seria poziomów,,,,,,
+TITLE_HEAVEN,Custom Heaven Rush,,,,,,,,Niestandardowa Niebiańska seria poziomów,,,,,,
+TITLE_HELL,Custom Hell Rush,,,,,,,,Niestandardowa Piekielna seria poziomów,,,,,,
+LABEL_RUSHCODE,Enter/paste rush code...,,,,,,,,Wpisz/wklej kod serii...,,,,,,
+LABEL_RUSHCODE_T,Rush code:,,,,,,,,Kod serii:,,,,,,
+BUTTON_CLEARCODE,Clear,,,,,,,,Wyczyść,,,,,,
+LABEL_REMOVEITEM,Remove {0},,,,,,,,Usuń,,,,,,
+SETTING__LASTCODE_T,Default Code,,,,,,,,Domyślny kod,,,,,,
+SETTING__LASTCODE_D,The code to load up on the first time checking the custom rush screen.<br>Defaults to the last rush you ran.,,,,,,,,"Kod, który należy wczytać przy pierwszym sprawdzeniu ekranu niestandardowej serii poziomów.<br>Domyślnie używana jest ostatnio uruchomiona seria.",,,,,,
